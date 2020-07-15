@@ -1,5 +1,24 @@
 ### Hi there 👋
 
+```yaml
+apiVersion: v1
+kind: Developer
+metadata:
+  name: Pedro-deployment
+  labels:
+    tier: backend
+spec:
+  containers:
+  - name: Pedro
+    image: Pedro:latest
+    env:
+    - name: Code
+      value: '[Javascript, PHP, HTML, CSS]'
+    - name: Tools
+      value: 'Node, Docker, Kubernetes'
+```
+
+
 <!--
 **PcFerreira/PcFerreira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

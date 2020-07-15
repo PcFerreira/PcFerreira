@@ -1,4 +1,4 @@
-### Hi there 👋
+### PcFerreira@github:~$ kubectl apply -f profile.yml
 
 ```yaml
 apiVersion: v1

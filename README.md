@@ -13,7 +13,7 @@ spec:
     image: Pedro:latest
     env:
     - name: Code
-      value: '[Javascript, PHP, TypeScript]'
+      value: '[Javascript, PHP, TypeScript, Python]'
     - name: Tools
       value: '[NodeJs, Docker, Kubernetes, Prometheus, OracleDB]'
     - name: Linkedin

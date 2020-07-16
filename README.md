@@ -13,9 +13,9 @@ spec:
     image: Pedro:latest
     env:
     - name: Code
-      value: '[Javascript, PHP]'
+      value: '[Javascript, PHP, TypeScript]'
     - name: Tools
-      value: 'Node, Docker, Kubernetes'
+      value: '[NodeJs, Docker, Kubernetes, Prometheus, OracleDB]'
     - name: Linkedin
       value: 'https://www.linkedin.com/in/pedrocesarf/' 
 ```

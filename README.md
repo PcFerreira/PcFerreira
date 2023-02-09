@@ -9,6 +9,7 @@ authors = ["Pedro Ferreira <cesar_pedro@outlook.com>"]
 description = "This is a short description of what i know"
 license = "MIT"
 homepage = "https://www.linkedin.com/in/pedrocesarf/"
+keywords = ["developer", "ai", "mlops", "devops"]
 
 [features]
 languages = ["rust", "javascript", "python", "C#", "C++"]

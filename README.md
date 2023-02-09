@@ -1,4 +1,4 @@
-### PcFerreira@github:~$ kubectl apply -f profile.yml
+### PcFerreira@github:~$ cargo run
 
 ```toml
 [package]

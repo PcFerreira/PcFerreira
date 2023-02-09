@@ -12,6 +12,7 @@ homepage = "https://www.linkedin.com/in/pedrocesarf/"
 keywords = ["developer", "ai", "mlops", "devops"]
 
 [features]
+speaks = ["🇧🇷", "🇬🇧"]
 languages = ["rust", "javascript", "python", "C#", "C++"]
 devops = ["docker", "kubernetes", "AWS", "GCP"]
 db = ["postgres", "oracle", "redis"]

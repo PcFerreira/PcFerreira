@@ -3,8 +3,8 @@
 ```toml
 [package]
 name = "pcferreira"
-version = "1.0.0"
-edition = "2023"
+version = "1.1.0"
+edition = "2024"
 authors = ["Pedro Ferreira <cesar_pedro@outlook.com>"]
 description = "This is a short description of what i know"
 license = "MIT"
@@ -12,17 +12,17 @@ homepage = "https://www.linkedin.com/in/pedrocesarf/"
 keywords = ["developer", "ai", "mlops", "devops"]
 
 [features]
-speaks = ["🇧🇷", "🇬🇧"]
+speaks = ["🇧🇷", "🇬🇧", "🇯🇵"]
 languages = ["rust", "javascript", "python", "C#", "C++"]
 devops = ["docker", "kubernetes", "AWS", "GCP"]
-db = ["postgres", "oracle", "redis"]
+db = ["postgres", "qdrant", "pinecone", "redis"]
 tools = ["apache-kafka", "bullmq", "prometheus"]
 interests = ["machine-learning", "computer-vision", "ai"]
 
 [dependencies]
 rust = {version = "0.5.0", features = ["actix-web"]}
-javascript = {version = "2.0.0", features = ["nodejs", "deno", "typescript"]}
-python = {version = "1.0.0", features = ["flask", "opencv"]}
+javascript = {version = "2.0.0", features = ["nodejs", "typescript"]}
+python = {version = "1.0.0", features = ["fastapi", "opencv", "pytorch"]}
 c-sharp = {version = "1.0.0", features = [".net-core"]}
 
 ```

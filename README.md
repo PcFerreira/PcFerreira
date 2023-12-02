@@ -5,10 +5,8 @@
 name = "pcferreira"
 version = "1.1.0"
 edition = "2024"
-authors = ["Pedro Ferreira <cesar_pedro@outlook.com>"]
 description = "This is a short description of what i know"
 license = "MIT"
-homepage = "https://www.linkedin.com/in/pedrocesarf/"
 keywords = ["developer", "ai", "mlops", "devops"]
 
 [features]

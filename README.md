@@ -19,7 +19,7 @@ interests = ["machine-learning", "computer-vision", "ai"]
 
 [dependencies]
 rust = {version = "0.5.0", features = ["actix-web"]}
-javascript = {version = "2.0.0", features = ["nodejs", "typescript"]}
+javascript = {version = "2.0.0", features = ["nodejs", "typescript", "fastify"]}
 python = {version = "1.0.0", features = ["fastapi", "opencv", "pytorch"]}
 c-sharp = {version = "1.0.0", features = [".net-core"]}
 

@@ -7,21 +7,18 @@ version = "1.1.0"
 edition = "2024"
 description = "This is a short description of what i know"
 license = "MIT"
-keywords = ["developer", "ai", "mlops", "devops"]
+keywords = ["developer", "ai"]
 
 [features]
 speaks = ["🇧🇷", "🇬🇧", "🇯🇵"]
 languages = ["rust", "javascript", "python", "C#", "C++"]
-devops = ["docker", "kubernetes", "AWS", "GCP"]
 db = ["postgres", "qdrant", "pinecone", "redis"]
-tools = ["apache-kafka", "bullmq", "prometheus"]
-interests = ["machine-learning", "computer-vision", "ai"]
+interests = ["machine-learning", "computer-vision", "ai", "generative ai"]
 
 [dependencies]
-rust = {version = "0.5.0", features = ["actix-web"]}
+rust = {version = "1.0.0", features = ["actix-web"]}
 javascript = {version = "2.0.0", features = ["nodejs", "typescript", "fastify"]}
-python = {version = "1.0.0", features = ["fastapi", "opencv", "pytorch"]}
-c-sharp = {version = "1.0.0", features = [".net-core"]}
+python = {version = "1.1.0", features = ["fastapi", "opencv", "pytorch", "transformers"]}
 
 ```
 

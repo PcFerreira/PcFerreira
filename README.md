@@ -4,7 +4,6 @@
 [package]
 name = "Pedro"
 aka = ["結太", "凯萨"]
-current_job = "CTO at █████"
 version = "1.1.1"
 edition = "2025"
 license = "MIT"

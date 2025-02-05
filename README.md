@@ -2,15 +2,17 @@
 
 ```toml
 [package]
-name = "pcferreira"
-version = "1.1.0"
-edition = "2024"
-description = "This is a short description of what i know"
+name = "Pedro"
+aka = ["結太", "凯萨"]
+current_job = "CTO at █████"
+version = "1.1.1"
+edition = "2025"
 license = "MIT"
 keywords = ["developer", "ai"]
 
 [features]
-speaks = ["🇧🇷", "🇬🇧", "🇯🇵"]
+speaks = ["🇧🇷", "🇬🇧"]
+learning = ["🇯🇵", "🇨🇳"]
 languages = ["rust", "javascript", "python", "C#", "C++"]
 db = ["postgres", "qdrant", "pinecone", "redis"]
 interests = ["machine-learning", "computer-vision", "ai", "generative ai"]
